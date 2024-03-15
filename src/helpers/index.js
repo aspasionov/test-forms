@@ -10,7 +10,7 @@ export const errorHandler  = (errors) => {
     return 
   } 
 
-  if(typeof errors === 'array' ) {
+  if(Array.isArray(errors)) {
     return errors
   } 
 
