@@ -1,0 +1,11 @@
+.logo {
+  display: inline-block;
+  margin-bottom: 40px;
+  
+}
+
+@media (min-width: 768px) {
+  .logo {
+    margin-bottom: 80px;
+  }
+}
